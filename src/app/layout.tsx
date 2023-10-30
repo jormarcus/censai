@@ -5,6 +5,8 @@ import { Toaster } from 'react-hot-toast';
 import ThemeSwitcher from '../components/theme-switcher';
 import Providers from '../providers/Providers';
 
+import 'mapbox-gl/dist/mapbox-gl.css';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {

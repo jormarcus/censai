@@ -86,3 +86,9 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.map-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 1.5rem;
+}
